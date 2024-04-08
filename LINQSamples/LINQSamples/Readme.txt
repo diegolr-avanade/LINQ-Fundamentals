@@ -9,11 +9,15 @@ To run this project in Visual Studio 2022, open the LINQSamples.sln
 
 SampleViewModel Samples
 --------------------------------------------------
-GroupBy() - Group all products by size.
-GroupByInto() - Same as GroupBy just uses the 'into' keyword.
-GroupByUsingKey() - Order by the 'Key' property
-GroupByWhere() - Search for those sizes with 2 or more products. Simulates a SQL HAVING clause.
-GroupedSubquery() - Group Sales by SalesOrderID, add Products into new Sales Order object using a subquery.
-
-Extra Sample Not Recorded
-GroupByDistinct() - The Distinct() operator can be simulated using the GroupBy() and FirstOrDefault() operators
+Count() - Count all rows in collection
+CountFiltered() - Count all rows after where clause is applied
+Minimum() - Get the minimum value from a numeric column in a collection
+Maximum() - Get the maximum value from a numeric column in a collection
+MinBy() - Get the minimum value from a numeric column in a collection, return object
+MaxBy() - Get the maximum value from a numeric column in a collection, return object
+Average() - Get the average value from a numeric column in a collection
+Sum() - Get a sum of a numeric column in a collection
+AggregateSum() - Use the Aggregate() function to simulate the Sum() operation
+AggregateCustom() - Use Sales Orders and calculate the total Sales by multiplying OrderQty * UnitPrice for each order
+AggregateUsingGroupBy() - Group products by Size property and calculate min/max/average prices
+AggregateMoreEfficient() - Use an accumulator class to be more efficient
