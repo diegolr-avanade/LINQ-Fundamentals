@@ -9,10 +9,7 @@ To run this project in Visual Studio 2022, open the LINQSamples.sln
 
 SampleViewModel Samples
 --------------------------------------------------
-UnionIntegers() - Union() combines two lists together, but skips duplicates by using a comparer class. This is like the UNION SQL operator.
-Union() - Union() combines two lists together, but skips duplicates by using a comparer class. This is like the UNION SQL operator.
-
-UnionBy() - UnionBy() combines two lists together using DISTINCT on the property specified
-
-ConcatIntegers() - The LINQ Concat() operator combines two lists together, but does NOT check for duplicates
-Concat() - The LINQ Concat() operator combines two lists together, but does NOT check for duplicates
+InnerJoin() - Join a Sales Order Detail collection with Products into an anonymous class. This is an equijoin or an inner join.
+InnerJoinTwoFields() - Join a Sales Order Detail collection with Products using two fields.
+JoinIntoQuery() - Use 'into' to create a new object with a Sales collection for each Product
+LeftOuterJoin() - Perform a left join between Products and Sales using DefaultIfEmpty() and SelectMany().
