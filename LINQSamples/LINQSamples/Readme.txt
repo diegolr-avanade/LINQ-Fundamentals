@@ -9,7 +9,7 @@ To run this project in Visual Studio 2022, open the LINQSamples.sln
 
 SampleViewModel Samples
 --------------------------------------------------
-GetAll() - Put all products into a collection using LINQ
-GetSingleColumn() - Select a single column
-GetSpecificColumns() - Select a few specific properties from products and create new Product objects
-AnonymousClass() - Create an anonymous class from selected product properties
+OrderBy() - Order products by Name
+OrderByDescending() - Order products by name in descending order
+OrderByTwoFields() - Order products by Color descending, then Name
+OrderByTwoFieldsDescMethod() - Order products by Color descending, then Name Descending
