@@ -4,7 +4,7 @@
 SamplesViewModel vm = new();
 
 // Call Sample Method
-var result = vm.FilterRows();
+var result = vm.GetSpecificColumnsMethod();
 
 // Display Results
 vm.Display(result);
