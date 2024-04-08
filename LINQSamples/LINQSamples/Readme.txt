@@ -9,10 +9,11 @@ To run this project in Visual Studio 2022, open the LINQSamples.sln
 
 SampleViewModel Samples
 --------------------------------------------------
-First() - Locate a specific product using First(). First() searches forward in the collection. NOTE: First() throws an exception if the result does not produce any values
-FirstOrDefault() - Locate a specific product using FirstOrDefault(). FirstOrDefault() searches forward in the list. NOTE: FirstOrDefault() returns a null if no value is found
-FirstOrDefaultWithCustom() - Use a custom default value when not found
-Last() - Locate a specific product using Last(). Last() searches from the end of the list backwards. NOTE: Last returns the last value from a collection, or throws an exception if no value is found
-LastOrDefault() - Locate a specific product using LastOrDefault(). LastOrDefault() searches from the end of the list backwards. NOTE: LastOrDefault returns the last value in a collection or a null if no values are found
-Single() - Locate a specific product using Single(). NOTE: Single() expects only a single element to be found in the collection, otherwise an exception is thrown
-SingleOrDefault() - Locate a specific product using SingleOrDefault(). NOTE: SingleOrDefault() returns a single element found in the collection, or a null value if none found in the collection, if multiple values are found an exception is thrown.
+Take() - Use Take() to select a specified number of items from the beginning of a collection
+TakeRange() - Use a range operator
+TakeWhile() - Use TakeWhile() to select a specified number of items from the beginning of a collection based on a true condition
+Skip() - Use Skip() to move past a specified number of items from the beginning of a collection
+SkipWhile() - Use SkipWhile() to move past a specified number of items from the beginning of a collection based on a true condition
+Distinct() - The Distinct() operator finds all unique values within a collection
+DistinctBy() - The DistinctBy() operator finds all unique values within a collection and returns the objects
+Chunk() - Chunk() splits the elements of a larger list into a collection of arrays of a specified size where each element of the collection is an array of those items.
