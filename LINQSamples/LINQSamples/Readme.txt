@@ -9,11 +9,7 @@ To run this project in Visual Studio 2022, open the LINQSamples.sln
 
 SampleViewModel Samples
 --------------------------------------------------
-Take() - Use Take() to select a specified number of items from the beginning of a collection
-TakeRange() - Use a range operator
-TakeWhile() - Use TakeWhile() to select a specified number of items from the beginning of a collection based on a true condition
-Skip() - Use Skip() to move past a specified number of items from the beginning of a collection
-SkipWhile() - Use SkipWhile() to move past a specified number of items from the beginning of a collection based on a true condition
-Distinct() - The Distinct() operator finds all unique values within a collection
-DistinctBy() - The DistinctBy() operator finds all unique values within a collection and returns the objects
-Chunk() - Chunk() splits the elements of a larger list into a collection of arrays of a specified size where each element of the collection is an array of those items.
+All() - Use All() to see if all items in a collection meet a specified condition
+Any() - Use Any() to see if at least one item in a collection meets a specified condition
+Contains() - Use the LINQ Contains operator to see if a collection contains a specific value
+ContainsComparer() - Use the LINQ Contains operator to see if a collection contains a specific object using an EqualityComparer class to perform the comparison
