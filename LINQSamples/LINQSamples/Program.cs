@@ -4,7 +4,7 @@
 SamplesViewModel vm = new();
 
 // Call Sample Method
-var result = vm.ConcatIntegersQuery();
+var result = vm.InnerJoinQuery();
 
 // Display Results
 vm.Display(result);
