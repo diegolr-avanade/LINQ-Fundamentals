@@ -9,7 +9,6 @@ To run this project in Visual Studio 2022, open the LINQSamples.sln
 
 SampleViewModel Samples
 --------------------------------------------------
-OrderBy() - Order products by Name
-OrderByDescending() - Order products by name in descending order
-OrderByTwoFields() - Order products by Color descending, then Name
-OrderByTwoFieldsDescMethod() - Order products by Color descending, then Name Descending
+Where() - Filter products using where. If the data is not found, an empty list is returned
+WhereTwoFields() - Filter products using where with two fields. If the data is not found, an empty list is returned
+WhereExtensionMethod() - Filter products using a custom extension method
