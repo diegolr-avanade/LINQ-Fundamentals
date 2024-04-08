@@ -4,7 +4,7 @@
 SamplesViewModel vm = new();
 
 // Call Sample Method
-var result = vm.InnerJoinQuery();
+var result = vm.GroupByQuery();
 
 // Display Results
 vm.Display(result);

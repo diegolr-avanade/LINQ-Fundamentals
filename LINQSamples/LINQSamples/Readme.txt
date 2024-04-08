@@ -9,7 +9,11 @@ To run this project in Visual Studio 2022, open the LINQSamples.sln
 
 SampleViewModel Samples
 --------------------------------------------------
-InnerJoin() - Join a Sales Order Detail collection with Products into an anonymous class. This is an equijoin or an inner join.
-InnerJoinTwoFields() - Join a Sales Order Detail collection with Products using two fields.
-JoinIntoQuery() - Use 'into' to create a new object with a Sales collection for each Product
-LeftOuterJoin() - Perform a left join between Products and Sales using DefaultIfEmpty() and SelectMany().
+GroupBy() - Group all products by size.
+GroupByInto() - Same as GroupBy just uses the 'into' keyword.
+GroupByUsingKey() - Order by the 'Key' property
+GroupByWhere() - Search for those sizes with 2 or more products. Simulates a SQL HAVING clause.
+GroupedSubquery() - Group Sales by SalesOrderID, add Products into new Sales Order object using a subquery.
+
+Extra Sample Not Recorded
+GroupByDistinct() - The Distinct() operator can be simulated using the GroupBy() and FirstOrDefault() operators
